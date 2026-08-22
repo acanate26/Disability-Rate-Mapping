@@ -35,7 +35,8 @@ install.packages(c(
   "gifski"
 ))
 
-    <img width="900" height="900" alt="disability_rate_ny_3d" src="https://github.com/user-attachments/assets/2b93f72d-7831-487b-929e-d1538de911c5" />
+
+<img width="900" height="900" alt="disability_rate_ny_3d" src="https://github.com/user-attachments/assets/2b93f72d-7831-487b-929e-d1538de911c5" />
 
 
 
