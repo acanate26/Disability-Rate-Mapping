@@ -1,15 +1,22 @@
 # Disability-Rate-Mapping (2022)
 Visualizes county-level disability rates across the United States using 2022 Census data, with both a static national choropleth map and an interactive 3D extrusion of New York State.
 
-WHAT THIS DOES 
+📁 WHAT THIS DOES:
 
 Loads county-level disability data from census_disability_by_county_2022.csv
+
 Joins it to U.S. Census county boundary shapefiles (via tigris)
+
 Renders a national choropleth map (PNG)
+
 Renders a zoomed-in New York State choropleth map (PNG)
+
 Extrudes the New York map into an interactive 3D scene (via rayshader) and exports it as a rotating orbit GIF
-Requirements
+
+REQUIREMENTS
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
 R (4.4+ recommended)
+
 RStudio or R console
 
 install.packages(c(
