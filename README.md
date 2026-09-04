@@ -37,7 +37,8 @@ install.packages(c(
   "tigris", "sf", "dplyr", "stringr", "viridis",
   "rayshader", "gifski"
 ))
-📁 HOW IT WORKS:
+
+🤌HOW IT WORKS:
 
 Load & clean data — Read the CSV with data.table::fread(), pad FIPS codes to 5 digits with stringr::str_pad() so they match Census GEOIDs.
 Fetch geometries — Pull county boundaries with tigris::counties() and shift Alaska/Hawaii into a standard inset layout with shift_geometry().
